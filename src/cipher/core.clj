@@ -3,13 +3,13 @@
 (def ascii-a (int \a))
 
 (defn to-int
-  "recebe uma letra minúscola e retorna sua posição no alfabeto: a = 0, b = 1, etc."
+  "recebe uma letra minúscula e retorna sua posição no alfabeto: a = 0, b = 1, etc."
   [letter-char]
   (- (int letter-char) ascii-a)
   )
 
 (defn to-char
-  "transcforma o código ascii-a de volta em um caractere"
+  "transforma o código ascii-a de volta em um caractere"
   [int-char]
   (char (+ ascii-a int-char))
   )
