@@ -1,12 +1,13 @@
-# cipher
+# Sobre o Projeto
+Atividade realizada durante o workshop de Clojure Bridge do Nubank, iniciação na linguagem funcional Clojure, onde desenvolvemos um programa de criptografia baseada na Cifra de César.
 
-A Clojure library designed to ... well, that part is up to you.
+## Cifra de César
+"Cifra de César funciona deslocando o alfabeto em um número de posições para esquerda, retornando para o início ao chegar no limite de caracteres, formando um ciclo. A chave para a cifra é o número de posições que as letras são movidas. Por exemplo, se a chave é 3 então a é substituido por d, b por e etc. Aqui está a substituição do alfabeto inteiro:
 
-## Usage
+abcdefghijklmnopqrstuvwxyz
+defghijklmnopqrstuvwxyzabc "
 
-FIXME
-
-## License
+### License
 
 Copyright © 2019 FIXME
 
